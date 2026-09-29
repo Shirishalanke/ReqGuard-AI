@@ -1,0 +1,230 @@
+/* ReqGuard-AI Professional Dashboard */
+
+[data-testid="stAppViewContainer"] {
+    background:
+        radial-gradient(circle at top right, #182b68 0%, transparent 35%),
+        linear-gradient(135deg, #050b18 0%, #0b1630 55%, #111746 100%);
+}
+
+[data-testid="stHeader"] {
+    background: transparent;
+}
+
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #050b18 0%, #09142b 100%);
+    border-right: 1px solid #1d3a66;
+}
+
+[data-testid="stSidebar"] * {
+    color: #e8f1ff !important;
+}
+
+h1 {
+    color: #ffffff !important;
+    font-weight: 800 !important;
+}
+
+h2,
+h3 {
+    color: #ffffff !important;
+}
+
+p,
+label {
+    color: #cbd9f3 !important;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 4px;
+}
+
+.brand-icon {
+    font-size: 32px;
+}
+
+.brand-title {
+    color: white;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.brand-subtitle {
+    color: #7f9bc4;
+    font-size: 11px;
+}
+
+.nav-item {
+    padding: 12px 14px;
+    margin: 6px 0;
+    border-radius: 10px;
+    color: #aebfdd !important;
+    font-size: 14px;
+}
+
+.nav-item.active {
+    background: linear-gradient(90deg, #173e82, #243a91);
+    color: white !important;
+    box-shadow: 0 0 20px rgba(45, 120, 255, 0.18);
+}
+
+.status-card {
+    padding: 12px;
+    border: 1px solid #204777;
+    border-radius: 10px;
+    background: rgba(20, 50, 90, 0.35);
+    color: #dbe8ff;
+}
+
+.status-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #22c55e;
+    border-radius: 50%;
+    margin-right: 8px;
+    box-shadow: 0 0 10px #22c55e;
+}
+
+.hero {
+    padding: 25px 0 15px 0;
+}
+
+.hero-small {
+    color: #5ea8ff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: 45px !important;
+    margin-bottom: 0;
+}
+
+.hero p {
+    font-size: 17px;
+    color: #9eb5d8 !important;
+}
+
+[data-testid="stMetric"] {
+    background: linear-gradient(
+        145deg,
+        rgba(22, 49, 91, 0.95),
+        rgba(10, 25, 53, 0.95)
+    );
+    border: 1px solid #234c80;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.28);
+}
+
+[data-testid="stMetricLabel"] {
+    color: #91acd3 !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #ffffff !important;
+    font-weight: 800 !important;
+}
+
+.section-card {
+    padding: 5px 0 10px 0;
+}
+
+.card-title {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-subtitle {
+    color: #7895bd;
+    font-size: 13px;
+}
+
+.insight-card {
+    min-height: 280px;
+    padding: 25px;
+    border-radius: 18px;
+    background: linear-gradient(
+        145deg,
+        rgba(29, 40, 105, 0.8),
+        rgba(17, 25, 68, 0.85)
+    );
+    border: 1px solid #394c9c;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.25);
+}
+
+.insight-icon {
+    font-size: 35px;
+}
+
+.insight-card h3 {
+    margin-top: 10px;
+}
+
+textarea,
+[data-testid="stTextArea"] textarea {
+    background: #0b1a33 !important;
+    color: #ffffff !important;
+    border: 1px solid #2b5387 !important;
+    border-radius: 14px !important;
+}
+
+textarea:focus {
+    border: 1px solid #438cff !important;
+}
+
+.stButton > button {
+    background: linear-gradient(
+        90deg,
+        #2563eb,
+        #06b6d4
+    ) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 12px !important;
+    font-weight: 700 !important;
+    padding: 12px 25px !important;
+    box-shadow: 0 5px 20px rgba(37, 99, 235, 0.25);
+}
+
+.stButton > button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.4);
+}
+
+[data-testid="stAlert"] {
+    border-radius: 14px !important;
+}
+
+.analysis-card {
+    margin-top: 20px;
+    padding: 22px;
+    border-radius: 16px;
+    background: linear-gradient(
+        145deg,
+        #10294d,
+        #0b1933
+    );
+    border: 1px solid #28538a;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+.analysis-card h3 {
+    margin-top: 0;
+}
+
+hr {
+    border-color: #203e67 !important;
+}
+
+.footer {
+    text-align: center;
+    color: #6f88ae;
+    font-size: 12px;
+    padding: 20px;
+}
