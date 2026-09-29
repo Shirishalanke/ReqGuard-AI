@@ -14,7 +14,7 @@ if css_path.exists():
             unsafe_allow_html=True
         )
 else:
-    st.warning("CSS file not found: assets/style.css")
+    st.warning("CSS file not found: static/style.css")
 
 # Initialize dashboard counters
 if "total_analyzed" not in st.session_state:
